@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/humble/include/**",
+                "/${workspaceFolder}/src/example_cpp/include/**",
+                "${workspaceFolder}/src/example_service_rclcpp/include/**",
+                "${workspaceFolder}/src/example_topic_rclcpp/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/install/example_ros2_interfaces/include/example_ros2_interfaces",
+                "${workspaceFolder}/src/example_action_rclcpp/include",
+                "${workspaceFolder}/install/robot_control_interfaces/include/**",
+                "${workspaceFolder}/src/example_action_rclpy/example_action_rclpy/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
